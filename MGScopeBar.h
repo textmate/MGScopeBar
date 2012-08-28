@@ -30,6 +30,7 @@
 #import <Cocoa/Cocoa.h>
 #import "MGScopeBarDelegateProtocol.h"
 
+__attribute__((__visibility__("default")))
 @interface MGScopeBar : NSView {
 @private
 	IBOutlet id <MGScopeBarDelegate, NSObject> delegate; // weak ref.
