@@ -37,6 +37,6 @@
 	NSMutableArray *groups;
 }
 
-@property(retain) NSMutableArray *groups;
+@property(strong) NSMutableArray *groups;
 
 @end

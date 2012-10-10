@@ -130,11 +130,6 @@
 }
 
 
-- (void)dealloc
-{
-	self.groups = nil;
-	[super dealloc];
-}
 
 
 #pragma mark MGScopeBarDelegate methods

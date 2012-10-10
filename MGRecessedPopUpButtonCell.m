@@ -48,11 +48,6 @@
 }
 
 
-- (void)dealloc
-{
-	[recessedButton release];
-	[super dealloc];
-}
 
 
 - (void)drawTitleWithFrame:(NSRect)cellFrame inView:(NSView *)controlView
