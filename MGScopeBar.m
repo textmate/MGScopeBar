@@ -107,6 +107,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         _smartResizeEnabled = YES;
+        self.appearance = [NSAppearance appearanceNamed:NSAppearanceNameAqua];
 		// Everything else is reset in -reloadData.
     }
     return self;
